@@ -4,7 +4,7 @@
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
-var MindController = function MindController($scope) {
+var Clicker = function Clicker($scope) {
 
   $scope.count = 0;
   $scope.message = 'Likes';
@@ -15,9 +15,9 @@ var MindController = function MindController($scope) {
   };
 };
 
-MindController.$inject = ['$scope'];
+Clicker.$inject = ['$scope'];
 
-exports['default'] = MindController;
+exports['default'] = Clicker;
 module.exports = exports['default'];
 
 },{}],2:[function(require,module,exports){
@@ -29,13 +29,13 @@ var _angular = require('angular');
 
 var _angular2 = _interopRequireDefault(_angular);
 
-var _controllersMindController = require('./controllers/mindController');
+var _controllersClicker = require('./controllers/clicker');
 
-var _controllersMindController2 = _interopRequireDefault(_controllersMindController);
+var _controllersClicker2 = _interopRequireDefault(_controllersClicker);
 
-_angular2['default'].module('app', []).controller('MindController', _controllersMindController2['default']);
+_angular2['default'].module('app', []).controller('Clicker', _controllersClicker2['default']);
 
-},{"./controllers/mindController":1,"angular":4}],3:[function(require,module,exports){
+},{"./controllers/clicker":1,"angular":4}],3:[function(require,module,exports){
 /**
  * @license AngularJS v1.4.7
  * (c) 2010-2015 Google, Inc. http://angularjs.org

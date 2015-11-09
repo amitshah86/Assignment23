@@ -1,8 +1,8 @@
 import angular from 'angular';
 
-import MindController from './controllers/mindController';
+import Clicker from './controllers/clicker';
 
 angular.module('app', [])
 
 
-.controller('MindController', MindController);
+.controller('Clicker', Clicker);

@@ -1,4 +1,4 @@
-let MindController = function ($scope) {
+let Clicker = function ($scope) {
 
 $scope.count = 0;
 $scope.message = 'Likes';
@@ -12,6 +12,6 @@ $scope.increaseByOne = function () {
 
 };
 
-MindController.$inject = ['$scope'];
+Clicker.$inject = ['$scope'];
 
-export default MindController;
+export default Clicker;
