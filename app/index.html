@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
   <title>Hello, World</title>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <h1>Hello, <i class="fa fa-globe"></i></h1>
+  
+<div class="btnContainer" ng-controller="MindController">
+  <h1>My Like Button</h1>
+    <button ng-click="increaseByOne()">{{ count }} {{ message }}</button>
+</div>
+
+
   
   <script src="js/main.js"></script>
 </body>

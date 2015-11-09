@@ -1,15 +1,10 @@
-// Put any @imports here
-// See Readme for a list of supported ones
-
 body {
-  background: red;
-}
+  background: red; }
 
 .btnContainer {
- margin-bottom: 400px;
- margin-left: 500px;
- font-family: 'Rock Salt', cursive;
- }
+  margin-bottom: 400px;
+  margin-left: 500px;
+  font-family: 'Rock Salt', cursive; }
 
 .btnContainer button {
   display: inline-block;
@@ -19,5 +14,6 @@ body {
   font-size: 36px;
   color: #85BD00;
   font-family: 'Rock Salt', cursive;
-  border-radius: 10px;
-}
+  border-radius: 10px; }
+
+/*# sourceMappingURL=main.css.map */
